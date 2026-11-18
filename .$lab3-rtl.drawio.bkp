@@ -1,9 +1,44 @@
 <mxfile host="Electron">
-  <diagram name="Page-1" id="fyTW5TDDNZtgJKav3lee">
-    <mxGraphModel dx="861" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+  <diagram name="DataPath" id="fyTW5TDDNZtgJKav3lee">
+    <mxGraphModel dx="1106" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XJy0u1YKoOysmN1_nqZj-40" edge="1" parent="1" source="XJy0u1YKoOysmN1_nqZj-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="XJy0u1YKoOysmN1_nqZj-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJy0u1YKoOysmN1_nqZj-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PC" vertex="1">
+          <mxGeometry height="30" width="80" x="-280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XJy0u1YKoOysmN1_nqZj-44" edge="1" parent="1" source="XJy0u1YKoOysmN1_nqZj-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="XJy0u1YKoOysmN1_nqZj-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="135" />
+              <mxPoint x="-120" y="135" />
+              <mxPoint x="-120" y="10" />
+              <mxPoint x="-10" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJy0u1YKoOysmN1_nqZj-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" value="MEM" vertex="1">
+          <mxGeometry height="60" width="120" x="-60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XJy0u1YKoOysmN1_nqZj-42" edge="1" parent="1" source="XJy0u1YKoOysmN1_nqZj-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;defaultLabelBackgroundColor=page;endArrow=classic;" target="XJy0u1YKoOysmN1_nqZj-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="260" />
+              <mxPoint x="-320" y="260" />
+              <mxPoint x="-320" y="10" />
+              <mxPoint x="-240" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJy0u1YKoOysmN1_nqZj-36" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;flipV=1;" value="PC_MUX" vertex="1">
+          <mxGeometry height="60" width="120" x="-300" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XJy0u1YKoOysmN1_nqZj-37" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;flipV=1;" value="ADDR_MUX" vertex="1">
+          <mxGeometry height="60" width="120" x="-70" y="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
