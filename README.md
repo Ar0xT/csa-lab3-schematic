@@ -4,10 +4,12 @@
 **Year:** 2026  
 **Variant:** m68k-neumann-microcode
 
+- [DataPath (png)](DataPath/m68k-schematic-DataPath.png)
+- [Control Unit (png)](CU/m68k-schematic-CU.png)
 - [DataPath (svg)](DataPath/m68k-schematic-DataPath.svg)
 - [Control Unit (svg)](CU/m68k-schematic-CU.drawio.svg)
 - [Source (draw.io)](m68k-schematic.drawio)
-- [Scheme (pdf)](m68k-schematic.drawio.pdf)
+
 
 ![DataPath](DataPath/m68k-schematic-DataPath.png)
 ![Control Unit](CU/m68k-schematic-CU.png)
