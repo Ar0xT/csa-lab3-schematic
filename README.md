@@ -7,7 +7,7 @@
 - [DataPath (png)](DataPath/m68k-schematic-DataPath.png)
 - [Control Unit (png)](CU/m68k-schematic-CU.png)
 - [DataPath (svg)](DataPath/m68k-schematic-DataPath.svg)
-- [Control Unit (svg)](CU/m68k-schematic-CU.drawio.svg)
+- [Control Unit (svg)](CU/m68k-schematic-CU.svg)
 - [Source (draw.io)](m68k-schematic.drawio)
 
 
